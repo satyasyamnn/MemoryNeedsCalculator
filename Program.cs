@@ -47,7 +47,7 @@ namespace TestMemoryAllocation
               .Select(s => s[random.Next(s.Length)]).ToArray());
         }
 
-        static void Main(string[] args)
+        static void Main()
         {
             string ret = "";
             var objectCounts = new long[] { 4_000_000L };
